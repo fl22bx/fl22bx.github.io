@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+// Define defaults for each variable.
+
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$body-background: #6E65EA;
+
+$wrapper-background: rgb(185, 237, 187);
+$wrapper-width: 900px;
+
+$spacing-unit:     30px !default;
+$margin-center: 0 auto;
+
+$background-image: url("back.jpg");
+
+$rounded-corners: 10px;
+
+$hover-color: #e2d0d0;
+
+// Import partials.
+@import
+  "minima/base",
+  "minima/layout",
+  "minima/syntax-highlighting"
+;

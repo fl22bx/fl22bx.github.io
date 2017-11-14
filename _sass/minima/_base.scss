@@ -1,0 +1,57 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+ h1, h2, h3, h4, h5, h6,
+ p, blockquote, pre,
+ ul, ol, dl, figure,
+ %vertical-rhythm {
+   margin-bottom: $spacing-unit / 2;
+ }
+ 
+
+body{
+  background-color:  $body-background;
+
+}
+
+.wrapper {
+  max-width: $wrapper-width;
+  margin: $margin-center;
+  background-color: $wrapper-background;
+  padding: $spacing-unit;
+
+}
+
+.site-header {
+  background-image: $background-image;
+  height: 400px;
+}
+
+
+.button {
+  display: inline-block;
+  background-color: $wrapper-background;
+  border-top-right-radius: $rounded-corners;
+  border-top-left-radius: $rounded-corners;
+  padding: $spacing-unit / 6;
+}
+
+.button:hover {
+  background-color: $hover-color;
+}
+
+.nav {
+  max-width: $wrapper-width;
+  margin: $margin-center;
+  background-color: $body-background;
+}
