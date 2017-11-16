@@ -58,7 +58,7 @@ body{
     
       background-color: $wrapper-background;
       padding: $spacing-unit;
-      max-width: $wrapper-width - $author-width;
+      width: $wrapper-width - $author-width - 100px;
     
     
     }
