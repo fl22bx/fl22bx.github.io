@@ -13,6 +13,9 @@ layout: default
           <h2>
               <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>         <span class="post-meta"> - {{ post.date | date: date_format }}</span>
             </h2>
+            <p> Categorie: {{post.categories}} </p>
+          
+
             {{post.excerpt}}
 
 

@@ -29,7 +29,7 @@ body{
   display: flex;
   max-width: $wrapper-width;
   margin: $margin-center;
-  margin-top: -100px;
+  margin-top: -80px;
 
   .author {
     margin-top: 25px;
@@ -58,6 +58,7 @@ body{
     
       background-color: $wrapper-background;
       padding: $spacing-unit;
+      max-width: $wrapper-width - $author-width;
     
     
     }

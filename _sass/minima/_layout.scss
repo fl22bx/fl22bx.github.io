@@ -2,3 +2,45 @@
     font-size: 14px;
     font-style: italic;
 }
+
+.post-header {
+    h1 {
+        margin: 0;
+        padding: 0;
+    }
+    margin-bottom: $spacing-unit / 2;
+}
+
+.post-list {
+    h2 {
+        margin-bottom: 0;
+    }
+}
+
+.text {
+    overflow: auto;
+}
+
+@mixin img-box {
+    border: 2px solid;
+    float: right;
+    clear: right;
+    margin: 10px;
+    max-width: $img-width;
+     img {
+         max-width: $img-width;
+     }
+}
+
+
+.box1 {
+    @include img-box;
+    }
+
+    .box2 {
+        @include img-box;
+    }
+
+    .box3 {
+        @include img-box;
+    }
