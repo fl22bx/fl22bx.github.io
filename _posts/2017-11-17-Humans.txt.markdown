@@ -1,0 +1,10 @@
+---
+title: Humans.txt
+date: 2017-11-17
+categories: Examination 1, 1dv022
+---
+#Vad är Humans.txt
+Det är en txtfil på webbplatsen som riktar sig till, som namnet antyder, människor. Denna kan finnas information om skapare, ägare och andra parter som man vill tacka.
+
+#Hur jag har använt mig av Humans.txt
+Jag har här min information, om vem jag är samt även tackat LNU och dess personal.

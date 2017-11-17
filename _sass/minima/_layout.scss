@@ -11,10 +11,25 @@
     margin-bottom: $spacing-unit / 2;
 }
 
+
+
 .post-list {
     h2 {
         margin-bottom: 0;
     }
+    p {
+        margin-bottom: 0;
+    }
+    hr {
+        margin-bottom: 20px;
+    }
+
+    li {
+        margin-bottom: 50px;
+        list-style-type: none;
+    }
+    @include link-style;
+
 }
 
 .text {
@@ -44,3 +59,29 @@
     .box3 {
         @include img-box;
     }
+
+
+.footer {
+    padding: $spacing-unit;
+    background-color: $footer-color;
+
+    a:link, a:visited, a:active {
+        text-decoration: none;
+        color: rgba(105, 33, 220, 0.851);
+    }
+
+  a:hover {
+    color: rgba(30, 5, 73, 0.851);
+   }
+
+    ul {
+        list-style: none;
+    }
+}
+.contact-list {
+        float: left;
+        margin-right: 50px; 
+
+        }
+
+  
