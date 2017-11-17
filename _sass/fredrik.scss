@@ -1,7 +1,5 @@
 @charset "utf-8";
 
-// Define defaults for each variable.
-
 $base-font-family: "Times New Roman", Georgia, Serif;
 $body-background: #6E65EA;
 
@@ -40,9 +38,9 @@ $footer-color: #ffffff;
 
 // Import partials.
 @import
-  "minima/base",
-  "minima/layout",
-  "minima/syntax-highlighting"
+  "sass/base",
+  "sass/layout",
+  "sass/syntax-highlighting"
 ;
 
 @media screen and (max-width: 900px){
