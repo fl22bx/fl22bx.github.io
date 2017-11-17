@@ -25,12 +25,17 @@ body{
 
 }
 
+.site-header{
+  img {
+    max-width: 100%;
+  }
+}
 
 .container{
   display: flex;
   max-width: $wrapper-width;
   margin: $margin-center;
-  margin-top: 30px;
+  margin-top: -50px;
 
   .author {
     margin-top: 25px;
@@ -68,13 +73,7 @@ body{
 
 
 
-.site-header {
-  background-image: $background-image;
-  height: 450px;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center top;
-}
+
 
 
 .button {

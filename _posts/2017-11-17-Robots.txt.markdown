@@ -3,10 +3,10 @@ title: Robots.txt
 date: 2017-11-17
 categories: Examination 1, 1dv022
 ---
-#Vad är Robots.txt
+### Vad är Robots.txt
 Det är en txtfil på webbplatsen som sökmotorer andra program som letar på en webbplats kan komma åt. Denna berättar för dem hur de kan besöka din sida, vilka sidor so de inte har tillgång till OSV.
 
-#Hur jag har använt mig av Robots.txt
+### Hur jag har använt mig av Robots.txt
 Jag har valt att blockera alla från att besöka min sida
 
 {% highlight ruby %}

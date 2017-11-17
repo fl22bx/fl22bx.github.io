@@ -1,0 +1,27 @@
+                            
+/* TEAM */
+
+                            
+Development: Fredrik Stenmark                    
+Site:fredrik.stenmark@live.se                       
+Twitter: stenmark95
+github: fl22bx
+
+
+							
+/* THANKS */
+
+The staff att LNU
+
+
+
+
+                            
+/* SITE */
+
+                            
+Last update: 2017/11/17                      
+Standards: HTML5                          
+Components: Jekyll, Sass.                       
+Software: Visual Studio Code
+                         

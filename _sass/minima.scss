@@ -25,7 +25,7 @@ $on-laptop: 800px;
 
 $on-phone: 600px;
 
-$footer-color: #ffffffd2;
+$footer-color: #ffffff;
 
 @mixin link-style {
   a:link, a:visited, a:active {
@@ -45,9 +45,9 @@ $footer-color: #ffffffd2;
   "minima/syntax-highlighting"
 ;
 
-@media screen and (max-width: 800px){
-  .site-header {
-    height: 150px;
+@media screen and (max-width: 900px){
+  .container {
+    margin-top: 0px;
   }
   
   .author {
