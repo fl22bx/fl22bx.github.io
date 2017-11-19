@@ -28,7 +28,7 @@ $footer-color: #ffffff;
 @mixin link-style {
   a:link, a:visited, a:active {
       text-decoration: none;
-      color: rgb(4, 4, 4);
+      color: #040404;
   }
 
  
@@ -51,8 +51,7 @@ $footer-color: #ffffff;
   .author {
     display: none;
   }
-  
-   
+
   
   
 }
